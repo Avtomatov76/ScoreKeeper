@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="contentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/Football"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/ColumnTeamA"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TeamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/team_a"
+                android:textColor="@color/TeamAColor"/>
+
+            <TextView
+                style="@style/TeamAscore"
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/team_a_score"
+                android:textColor="@color/TeamAColor"/>
+
+            <Button
+                style="@style/Touchdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addSixPointsForTeamA"
+                android:text="@string/touchdown_a" />
+
+            <Button
+                style="@style/FieldAndExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addThreePointsForTeamA"
+                android:text="@string/field_goal_a" />
+
+            <Button
+                style="@style/FieldAndExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addOnePointForTeamA"
+                android:text="@string/extra_point_a" />
+
+            <Button
+                style="@style/Safety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addTwoPointsForTeamA"
+                android:text="@string/safety_a" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ColumnTeamB"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.scorekeeper.MainActivity">
+
+            <TextView
+                style="@style/TeamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/team_b"
+                android:textColor="@color/TeamBColor"/>
+
+            <TextView
+                style="@style/TeamBscore"
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/team_b_score"
+                android:textColor="@color/TeamBColor"/>
+
+            <Button
+                style="@style/Touchdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addSixPointsForTeamB"
+                android:text="@string/touchdown_b" />
+
+            <Button
+                style="@style/FieldAndExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addThreePointsForTeamB"
+                android:text="@string/field_goal_b" />
+
+            <Button
+                style="@style/FieldAndExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addOnePointForTeamB"
+                android:text="@string/extra_point_b" />
+
+            <Button
+                style="@style/Safety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addTwoPointsForTeamB"
+                android:text="@string/safety_b" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetToZero"
+        android:text="@string/reset" />
+
+</RelativeLayout>

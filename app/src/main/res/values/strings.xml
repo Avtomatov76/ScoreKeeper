@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- App title [CHAR LIMIT = 20] -->
+    <string name="app_name">Score Keeper</string>
+
+    <!-- Team A name [CHAR LIMIT = 20] -->
+    <string name="team_a">Team A</string>
+
+    <!-- Team A score [CHAR LIMIT = 20] -->
+    <string name="team_a_score">0</string>
+
+    <!-- Team A Touchdown button name [CHAR LIMIT = 20] -->
+    <string name="touchdown_a">Touchdown</string>
+
+    <!-- Team A Field Goal button name [CHAR LIMIT = 20] -->
+    <string name="field_goal_a">Field Goal</string>
+
+    <!-- Team A Extra Point button name [CHAR LIMIT = 20] -->
+    <string name="extra_point_a">Extra Point</string>
+
+    <!-- Team A Safety button name [CHAR LIMIT = 20] -->
+    <string name="safety_a">Safety</string>
+
+    <!-- Team B name [CHAR LIMIT = 20] -->
+    <string name="team_b">Team B</string>
+
+    <!-- Team B score [CHAR LIMIT = 20] -->
+    <string name="team_b_score">0</string>
+
+    <!-- Team B Touchdown button name [CHAR LIMIT = 20] -->
+    <string name="touchdown_b">Touchdown</string>
+
+    <!-- Team B Field Goal button name [CHAR LIMIT = 20] -->
+    <string name="field_goal_b">Field Goal</string>
+
+    <!-- Team B Extra Point button name [CHAR LIMIT = 20] -->
+    <string name="extra_point_b">Extra Point</string>
+
+    <!-- Team B Safety button name [CHAR LIMIT = 20] -->
+    <string name="safety_b">Safety</string>
+
+    <!-- Reset button name [CHAR LIMIT = 20] -->
+    <string name="reset">Reset</string>
+
+</resources>

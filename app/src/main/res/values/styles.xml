@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Football ImageView style specs. -->
+    <style name="Football">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/us_football</item>
+    </style>
+
+    <!-- Style Specs for Team A section. -->
+
+    <!-- Team A Column styling. -->
+    <style name="ColumnTeamA">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Team A Header styling. -->
+    <style name="TeamA">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Team A score styling. -->
+    <style name="TeamAscore">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">74dp</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+
+    <!-- Styling for Team A and Team B Touchdown buttons. -->
+    <style name="Touchdown">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:alpha">.6</item>
+    </style>
+
+    <!-- Styling for Team A and Team B Field Goal, and Extra Point buttons. -->
+    <style name="FieldAndExtra">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:alpha">.6</item>
+    </style>
+
+    <!-- Styling for both Team A and Team B Safety button. -->
+    <style name="Safety">
+        <item name="android:layout_marginLeft">44dp</item>
+        <item name="android:layout_marginRight">44dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:alpha">.6</item>
+    </style>
+
+    <!-- Style Specs for Team B section. -->
+
+    <!-- Team B Column styling. -->
+    <style name="ColumnTeamB">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Team B Header styling. -->
+    <style name="TeamB">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Team B score styling. -->
+    <style name="TeamBscore">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">74dp</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+
+    <!-- Team B Touchdown button styling. -->
+    <style name="TouchdownB">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:alpha">.6</item>
+    </style>
+
+    <!-- Reset button styling. -->
+    <style name="Reset">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:alpha">.6</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
